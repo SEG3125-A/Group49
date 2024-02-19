@@ -30,7 +30,7 @@ function validateEmail(email) {
 // Document of datepicker is here: https://api.jqueryui.com/datepicker/ 
 // The following code shows how to set specific dates to exclude, as well as Sundays (Day 0)
 // Make sure in your version that you associate Days to remove with Experts (e.g. John doesn't work Mondays)
-var unavailableDates = ["02/18/2024"]
+var unavailableDates = ["02/18/2024"];
 const setDateFormat = "mm/dd/yy";
 
 function disableDates(date) {
@@ -41,25 +41,26 @@ function disableDates(date) {
         return [false];
     if (date < currentDate)
         return [false];
-    if (proffesional == "Kelly") {
-        if (date.getDay() == 6)
-            return [false];
-    }
-    else if (proffesional == "Joshua") {
-        if (date.getDay() == 1)
-            return [false];
-    }
-    else if (proffesional == "Richard") {
-        if (date.getDay() == 2)
-            return [false];
-    }
-    else if (proffesional == "Rebecca") {
-        if (date.getDay() == 3)
-            return [false];
-    }
 
+        if (proffesional == "Kelly") {
+            if (date.getDay() == 6)
+                return [false];
+        }
+        else if (proffesional == "Joshua") {
+            if (date.getDay() == 1)
+                return [false];
+        }
+        else if (proffesional == "Richard") {
+            if (date.getDay() == 2)
+                return [false];
+        }
+        else if (proffesional == "Rebecca") {
+            if (date.getDay() == 3)
+                return [false];
+        }
+        
     var string = jQuery.datepicker.formatDate(setDateFormat, date);
-    return [unavailableDates.indexOf(string) == -1]
+    return [unavailableDates.indexOf(string) == -1 ]
 }
 
 
@@ -103,17 +104,19 @@ $(document).ready(function () {
 
 // Also, here is a good tutorial for playing with the datepicker in https://webkul.com/blog/jquery-datepicker/ 
 // Datepicker is also documented as one of the widgets here: https://api.jqueryui.com/category/widgets/ 
+$(function() {
 $("#dateInput").datepicker(
     {
         dateFormat: setDateFormat,
         // no calendar before June 1rst 2020
-        minDate: new Date('06/01/2020'),
+        minDate: new Date('01/01/2023'),  
         maxDate: '+4M',
         // used to disable some dates
         beforeShowDay: $.datepicker.noWeekends,
         beforeShowDay: disableDates
-    }
+    }   
 );
+});
 
 
 // Look at the different events on which an action can be performed
