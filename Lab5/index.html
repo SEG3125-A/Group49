@@ -215,29 +215,77 @@
                                     </div>
 
                                 </form>
+                                <div class="modal-footer">
 
+
+                                    <button type="button" class="btn text-white" style="background-color: #48dca6;"
+                                        onclick="checkForm()">Proceed to Payment</button>
+
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal"
+                                        style="background-color: #000000;">Close</button>
+
+                                </div>
 
                             </div>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- Payment Modal -->
+                <div class="modal fade" id="paymentModal" tabindex="-1" role="dialog"
+                    aria-labelledby="paymentModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="paymentModalLabel">Payment Information</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+    
+                                <form id="paymentForm">
+                                    
+                                    <div class="form-group">
+                                        <label for="cardNumber">Card Number</label>
+                                        <input type="text" class="form-control" id="cardNumber"
+                                            placeholder="1234 5678 9012 3456" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="cardName">Name on Card</label>
+                                        <input type="text" class="form-control" id="cardName"
+                                            placeholder="John Doe" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="cardExpiry">Expiry Date</label>
+                                        <input type="text" class="form-control" id="cardExpiry"
+                                            placeholder="MM/YY" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="cardCVC">CVC</label>
+                                        <input type="text" class="form-control" id="cardCVC"
+                                            placeholder="123" required> 
+                                    </div>
+                                    
+                                </form>
+                            </div>
                             <div class="modal-footer">
-
-
-                                <button type="button" class="btn text-white" style="background-color: #48dca6;"
-                                    onclick="checkForm()">Proceed to Payment</button>
-
-                                <button type="button" class="btn btn-secondary" data-dismiss="modal"
-                                    style="background-color: #000000;">Close</button>
-
+                                <button type="button" class="btn btn-primary" onclick="submitPayment()">Submit
+                                    Payment</button>
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                             </div>
                         </div>
                     </div>
                 </div>
-     
+
+
             </div>
-            
+
 
         </div>
 
     </div>
+
 
 
     <div class="row" style="background-color: white">
@@ -443,10 +491,8 @@
                                     </div>
                                 </div>
                             </div>
-                            
+
 </body>
-
-
 <script>
 
     document.getElementById('reservationNavItem').addEventListener('click', function () {
@@ -472,22 +518,14 @@
             alert("All fields must be filled out");
             return false;
         } else {
-            document.getElementById('reservationForm').style.display = 'none';
-            var paymentSection = document.getElementById('paymentSection');
-            if (paymentSection) {
-                paymentSection.style.display = 'block';
-            } else {
-                $('#exampleModal').modal('hide');
-                // Show the payment modal
-                $('#paymentModal').modal('show');
-            }
+            var paymentmodal = new bootstrap.Modal(document.getElementById('paymentModal'));            
+            paymentmodal.show();
         }
     }
     function submitPayment() {
         // Here you would add validation and submission logic
         alert("Payment submitted successfully!");
-        $('#exampleModal').modal('hide'); // Hide the modal after payment
-        // Reset the form and payment section visibility if needed
+
     }
 
 
