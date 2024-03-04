@@ -1,0 +1,143 @@
+
+/* Style sheet
+   color picker www.w3schools.com/colors/colors_picker.asp
+*/
+
+html {
+  background-color: #f2f2f2;
+}
+ 
+body {
+  background-color: #f2f2f2;
+  padding: 5px 5px 5px 5px;
+  
+}
+
+h1 {
+	font-size: 60px;
+	text-align: center;
+	margin: 0;
+	padding: 20px 0;
+	color: #bccfd7;  /* Fuchsia */
+	text-shadow: 3px 3px 1px black;
+}
+
+h2 {
+  font-size: 30px;
+  color: white;
+}
+
+h3 {
+  font-size: 30px;
+  text-align: center;
+  color: black;
+}
+
+
+textarea{
+  width: 100%;
+  padding: 1%;
+  background-color: #0b121a00;
+  border: 1px solid rgba(255,255,255,0.25);
+  border-radius: 20px;
+  color: #fff;
+  font-size: 1em;
+}
+
+.personalInfo {
+  background-color: #2d2d2c;
+  color: white;
+  margin: 20px;
+  padding: 50px;
+}
+
+#options{
+  font-size: 20px;
+}
+
+.question1{
+  font-size: 20pt; /* Font size for questions */
+  text-align: left; /* Align questions to the left */
+  margin: 20px; /* Adjusted margin for better spacing */
+  padding: 50px;
+  background-color: #636d77;
+  color: white;
+}
+.question2{
+  font-size: 20pt; /* Font size for questions */
+  text-align: left; /* Align questions to the left */
+  margin: 20px; /* Adjusted margin for better spacing */
+  padding: 50px;
+  background-color: #67796c;
+  color: white;
+}
+.question3{
+  font-size: 20pt; /* Font size for questions */
+  text-align: left; /* Align questions to the left */
+  margin: 20px; /* Adjusted margin for better spacing */
+  padding: 50px;
+  background-color: #80746c;
+  color: white;
+}
+
+.textarea:focus{
+  border: 2px solid #76dbc1
+}
+
+select{
+  position: relative;
+  width: 250px;
+  background-color: #0b121a;
+  border: 1px solid rgba(255,255,255,0.25);
+  color: #fff;
+}
+
+
+
+img {
+  display: block;
+  margin: 0 auto;
+  align: center;
+}
+
+p {
+  color: white;
+  font-size: 30px;
+}
+
+
+
+
+table {
+	border: 1px solid black;
+	background-color: #f1f1c1;
+}
+
+/* Defining styling for a specific element type - each question */
+.question {
+  background-color: black;
+  color: white;
+  margin: 20px;
+  padding: 20px;
+}
+
+/* Defining styling for a specific element type - large block buttons */
+.block {
+  display: block;
+  width: 100%;
+  border: none;
+  background-color: #8f001a;  
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  color:white;
+}
+
+/* Defining styling for a specific element with an id */
+#signature {
+  text-align: right;
+  color: #8f001a;
+  font-style: italic;
+  font-size: 75%;
+}

@@ -1,0 +1,124 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+	
+	<link rel="stylesheet" href="styles/style.css"  type="text/css">
+    <style>
+		/* Add this style rule directly in the HTML if needed */
+		.question {
+		  font-size: 20pt;
+		}
+	  </style>
+	<title>Questionnaire</title>
+  </head>
+  
+  <body>
+	<h1>Survey</h1>
+	<form id="myform" method="post">
+	<br>
+	<br>
+	<h3><i></i></h3>
+	<h3>What do you think of the UI in this <a href="https://www.uottawa.ca/en">UOttawa</a> site?</h2>	
+	<br>
+	<br>
+	<a href="https://www.uottawa.ca/en">
+	<img src="images/UOttawa_image1.jpg" alt="https://www.uottawa.ca/en" width="1200" height="650">
+	</a>
+	<br>
+	<br>
+	<div class="personalInfo">
+	<h2> Personal Information </h2>
+	<p id="firstName">First name: <input type="text" ></p>
+	<p id="lastName">Last name: <input type="text" ></p>
+	<p id="roleQuestion"><h2>What is your role?</h2>
+		<select id="options" name="role">
+			<option value="Current Student" selected="selected">Current Student</option>
+			<option value="Future Student">Future Student</option>
+			<option value="Staff">Staff</option>
+		</select>
+	</p>
+	<br>
+	<br>
+		
+	</div>	
+	
+	
+	<div class="question1">
+		<h2>1. How would you rate the user-friendliness of the website's navigation?  </h2>
+		<input type="radio" name="rate" value="Excellent">Excellent<br>
+		<input type="radio" name="rate" value="Very Good">Very Good<br>
+		<input type="radio" name="rate" value="Good">Good<br>
+		<input type="radio" name="rate" value="Fair">Fair<br>
+		<input type="radio" name="rate" value="Poor">Poor<br>
+		
+		<br>
+
+	
+	<h2>2. Which aspect of the website's design did you find most appealing?</h2>
+	<select id="options" name ="appealing">
+			<option value="Visual appeal" selected="selected">Visual appeal</option>
+			<option value="Charity of Information">Charity of Information</option>
+			<option value="Responsiveness(works well on different devices)">Responsiveness(works well on different devices)</option>
+			<option value="Ease of finding relevant information"> Ease of finding relevant information</option>
+	
+		</select>
+	</div>
+	
+	<div class="question2">
+		<h2> 3. Please select the features or sections you found helpful/useful on the website: </h2>
+		<input type="checkbox" name="choose" value="Course Information">Course Information<br>
+		<input type="checkbox" name="choose" value="Admissions">Admissions<br>
+		<input type="checkbox" name="choose" value="Student resources">Student resources<br>
+		<input type="checkbox" name="choose" value="Faculty and staff directory">Faculty and staff directory<br>
+		<input type="checkbox" name="choose" value="Events and News">Events and News<br>
+		<input type="checkbox" name="choose" value="Other">Other<br>
+		
+		<br>
+	
+	
+	
+	<h2>4. How satisfied are you with the website's load speed and performance?</h2>
+
+
+		<p>
+			<input type="radio" name="speed" value="Very Satisfied">Very Satisfied<br>
+			<input type="radio" name="speed" value="Satisfied">Satisfied<br>
+			<input type="radio" name="speed" value="Neutral">Neutral<br>
+			<input type="radio" name="speed" value="Dissatisfied">Dissatisfied<br>
+			<input type="radio" name="speed" value="Very Dissatisfied">Very Dissatisfied<br>
+		</p>
+	
+	<br>
+	<br>
+	</div>
+	
+	<div class="question3">
+	<h2>5. If there are any specific issues or improvements you'd like to suggest for the University of Ottawa website, please describe them here:</h2><br>
+	<textarea rows="5" cols="30"></textarea>
+			
+	<br>
+	<br>
+	
+	<h2>6. Please share your overall impression of the University of Ottawa website. Provide any comments or feedback you may have:</h2><br>
+	<textarea rows="5" cols="30"></textarea>
+			
+	<br>
+	<br>
+	
+	<button id="submitButton" type="submit" class="block">
+		SUBMIT your questionnaire
+	</button>
+		
+	<p id="signature">Site created by Joey Lee, Hairuo Liu, Roy Rui</p>	
+
+     </div>
+	
+	</form>
+
+	<script src="/assets/action.js"></script>
+
+  </body>
+</html> 
+
