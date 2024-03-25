@@ -1,0 +1,94 @@
+{
+    "app": {
+      "title": "Hello World!",
+      "description": "Welcome to my bilingual React app!"
+    },
+    "language": "Language",
+    "navbarHome": "Home",
+    "navbarHelp": "Help",
+    "aboutUs":"About Us",
+    "contactInformation": "Contact Information",
+    "termsOfService": "Term of Services",
+    "privacyPolicy": "Privacy Policy",
+    "aboutUsDetails": {
+        "title": "About Us",
+        "description": "Welcome to OttawaSky, your trusted source for weather forecasts in the Ottawa region. Our mission is to provide accurate and timely weather information to help you plan your day effectively."
+    },
+
+        "weatherRegions": {
+          "ottawa": "Ottawa",
+          "gatineau": "Gatineau",
+          "kanata": "Kanata",
+          "kingston": "Kingston, Ontario",
+          "toronto": "Toronto",
+          "montreal": "Montreal"
+        },
+          
+    "contactInfoDetails": {
+        "title": "Contact Information",
+        "welcomeMessage": "Welcome to OttawaSky, your trusted source for weather forecasts in the Ottawa region. Our mission is to provide accurate and timely weather information to help you plan your day effectively.",
+        "inquiriesAssistance": "For inquiries or assistance, please contact us:",
+        "email": "Email",
+        "phone": "Phone",
+        "address": "Address"
+    },
+    "help": {
+        "question1": "Comment puis-je changer de langue ?/ How can I switch the language ?",
+        "question2": "How can I view the detailed and forecasts weather of a specific region?",
+        "solution1": "Cliquez simplement sur l'icône « langue » et vous pourrez passer à l'anglais ou au français./ Just simply click on the \"language\" icon and you will be able to switch to English or French.",
+        "solution2": "Just simply click on the card of the region and you will be directed to its detail page.",
+        "anyProblem": "Any Problem With Our Website?",
+        "moreQuestionsPlaceholder": "More questions? Submit your question here...",
+        "submit": "Submit"
+      },
+      "privacyPolicyDetails": {
+        "title": "Privacy Policy",
+        "description": "This Privacy Policy describes how OttawaSky ('we', 'us', or 'our') collects, uses, and discloses your information when you use our website.",
+        "agreement": "We value your privacy and are committed to protecting your personal information. By using our website, you agree to the collection and use of information in accordance with this policy."
+      },
+      "termsOfServiceDetails": {
+        "title": "Terms of Service",
+        "welcomeMessage": "Welcome to OttawaSky. By using this website, you agree to comply with and be bound by the following terms and conditions of use. Please review these terms carefully. If you do not agree to these terms, you should not use this website.",
+        "acceptance": {
+          "sectionTitle": "Acceptance of Terms",
+          "content": "By accessing and using this website, you accept and agree to be bound by the terms and provision of this agreement."
+        },
+        "useLicense": {
+          "sectionTitle": "Use License",
+          "content": "Permission is granted to temporarily download one copy of the materials on OttawaSky's website for personal, non-commercial transitory viewing only."
+        },
+        "disclaimer": {
+          "sectionTitle": "Disclaimer",
+          "content": "The materials on OttawaSky's website are provided on an 'as is' basis. OttawaSky makes no warranties, expressed or implied, and hereby disclaims and negates all other warranties including, without limitation, implied warranties or conditions of merchantability, fitness for a particular purpose, or non-infringement of intellectual property or other violation of rights."
+        }
+      },
+      "weatherCard": {
+        "temp": "Temperature",
+        "feelsLike": "Feels Like",
+        "uvIndex": "UV Index",
+        "uvCategories": {
+          "low": "Low",
+          "moderate": "Moderate",
+          "high": "High",
+          "veryHigh": "Very High",
+          "extreme": "Extreme",
+          "unknown": "Unknown"
+        }
+      },
+      "weatherDetail": {
+        "temperature": "Temperature",
+        "feelsLike": "Feels Like",
+        "wind": "Wind",
+        "humidity": "Humidity",
+        "uvIndex": "UV Index",
+        "pressure": "Pressure",
+        "visibility": "Visibility",
+        "precipitation": "Precipitation",
+        "cloudCover": "Cloud Cover",
+        "gust": "Gust",
+        "lastUpdated": "Last Updated",
+        "forecast": "Forecast",
+        "chanceOfRain": "Chance of Rain"
+      }
+  }
+  

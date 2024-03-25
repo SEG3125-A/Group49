@@ -1,0 +1,91 @@
+{
+    "app": {
+        "title": "Bonjour le monde !",
+        "description": "Bienvenue dans mon application React bilingue !"
+    },
+    "language": "Langue",
+    "navbarHome": "Accueil",
+    "navbarHelp": "Aide",
+    "aboutUs":"À propos de nous",
+    "contactInformation": "Coordonnées",
+    "termsOfService": "Conditions d'utilisation",
+    "privacyPolicy": "Politique de confidentialité",
+    "aboutUsDetails": {
+        "title": "À propos de nous",
+        "description": "Bienvenue sur OttawaSky, votre source de confiance pour les prévisions météorologiques dans la région d'Ottawa. Notre mission est de fournir des informations météorologiques précises et opportunes pour vous aider à planifier votre journée efficacement."
+    },
+    "weatherRegions": {
+        "ottawa": "Ottawa",
+        "gatineau": "Gatineau",
+        "kanata": "Kanata",
+        "kingston": "Kingston, Ontario",
+        "toronto": "Toronto",
+        "montreal": "Montréal"
+    },
+    "contactInfoDetails": {
+        "title": "Coordonnées",
+        "welcomeMessage": "Bienvenue sur OttawaSky, votre source de confiance pour les prévisions météorologiques dans la région d'Ottawa. Notre mission est de fournir des informations météorologiques précises et opportunes pour vous aider à planifier votre journée efficacement.",
+        "inquiriesAssistance": "Pour des questions ou de l'aide, veuillez nous contacter :",
+        "email": "Email",
+        "phone": "Téléphone",
+        "address": "Adresse"
+    },
+    "help": {
+        "question1": "How can I switch the language ?/ Comment puis-je changer de langue ?",
+        "question2": "Comment puis-je consulter les prévisions détaillées et les prévisions météorologiques d'une région spécifique ?",
+        "solution1": "Just simply click on the \"language\" icon and you will be able to switch to English or French./ Cliquez simplement sur l'icône \"langue\" et vous pourrez passer en anglais ou en français.",
+        "solution2": "Cliquez simplement sur la carte de la région et vous serez dirigé vers sa page de détails.",
+        "anyProblem": "Un problème avec notre site Web ?",
+        "moreQuestionsPlaceholder": "Plus de questions ? Envoyez votre question ici...",
+        "submit": "Soumettre"
+    },
+    "privacyPolicyDetails": {
+        "title": "Politique de confidentialité",
+        "description": "Cette politique de confidentialité décrit comment OttawaSky ('nous', 'notre' ou 'nos') collecte, utilise et divulgue vos informations lorsque vous utilisez notre site Web.",
+        "agreement": "Nous attachons de l'importance à votre vie privée et nous nous engageons à protéger vos informations personnelles. En utilisant notre site Web, vous acceptez la collecte et l'utilisation des informations conformément à cette politique."
+    },
+    "termsOfServiceDetails": {
+        "title": "Conditions d'utilisation",
+        "welcomeMessage": "Bienvenue sur OttawaSky. En utilisant ce site Web, vous acceptez de respecter et d'être lié par les termes et conditions d'utilisation suivants. Veuillez lire attentivement ces termes. Si vous n'acceptez pas ces termes, vous ne devez pas utiliser ce site Web.",
+        "acceptance": {
+            "sectionTitle": "Acceptation des conditions",
+            "content": "En accédant et en utilisant ce site Web, vous acceptez et consentez à être lié par les termes et dispositions de cet accord."
+        },
+        "useLicense": {
+            "sectionTitle": "Licence d'utilisation",
+            "content": "La permission est accordée de télécharger temporairement une copie des matériaux sur le site Web d'OttawaSky pour une visualisation personnelle, non commerciale et temporaire seulement."
+        },
+        "disclaimer": {
+            "sectionTitle": "Avertissement",
+            "content": "Les matériaux sur le site Web d'OttawaSky sont fournis 'tels quels'. OttawaSky ne donne aucune garantie, expresse ou implicite, et rejette et annule par la présente toutes les autres garanties, y compris, sans limitation, les garanties ou conditions implicites de qualité marchande, d'adéquation à un usage particulier ou de non-contrefaçon de droits de propriété intellectuelle ou autres violations de droits."
+        }
+    },
+    "weatherCard": {
+        "temp": "Température",
+        "feelsLike": "Ressenti",
+        "uvIndex": "Indice UV",
+        "uvCategories": {
+            "low": "Faible",
+            "moderate": "Modéré",
+            "high": "Élevé",
+            "veryHigh": "Très élevé",
+            "extreme": "Extrême",
+            "unknown": "Inconnu"
+        }
+    },
+    "weatherDetail": {
+        "temperature": "Température",
+        "feelsLike": "Ressenti",
+        "wind": "Vent",
+        "humidity": "Humidité",
+        "uvIndex": "Indice UV",
+        "pressure": "Pression",
+        "visibility": "Visibilité",
+        "precipitation": "Précipitations",
+        "cloudCover": "Couverture nuageuse",
+        "gust": "Rafales",
+        "lastUpdated": "Dernière mise à jour",
+        "forecast": "Prévisions",
+        "chanceOfRain": "Risque de pluie"
+    }
+  }

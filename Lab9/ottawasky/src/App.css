@@ -1,0 +1,72 @@
+.App {
+  min-height: 100vh; /* Minimum height to fill the viewport height */
+  display: flex;
+  flex-direction: column; /* Stack children vertically */
+  justify-content: space-between; /* Maximize space between content and footer */
+  text-align: center;
+  background-color: #f4f4f4;
+}
+
+.App-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Centers content vertically if there is space */
+}
+
+.App-footer {
+  margin-top: auto; /* Pushes the footer to the bottom */
+}
+
+body {
+  overflow: auto; /* Add a scrollbar if the content is larger than the body */
+}
+
+.regionTitle {
+  font-family: constantia;
+  font-size: 30px;
+  font-weight: bold;
+  text-shadow: 0.5px 1px 1px #ba4040;
+  letter-spacing: 0.6px;
+
+}
+
+.WeatherCondition{
+  font-size: 20px;
+  font-family: system-ui;
+  line-height: 1.6; 
+  color: rgb(3, 63, 63);
+
+}
+
+.WeatherDetails{
+  font-size: 18px;
+  font-family: system-ui;
+  line-height: 1.6; /* Adds space between lines of text */
+}
+
+
+
+.WeatherDetailConditionTitle{
+  font-size: 30px;
+  font-family: system-ui;
+  line-height: 1.6; 
+  color: rgb(3, 63, 63);
+
+}
+
+
+.footer {
+  margin-top: auto; /* This pushes the footer to the bottom */
+  position: sticky;
+  bottom: 0;
+  width: 100%;
+}
+.footer-link {
+  color: #fff; /* Example color - adjust based on your footer's background */
+  text-decoration: none; /* Removes underline from links */
+}
+
+.footer-link:hover {
+  text-decoration: underline; /* Adds underline on hover for better UX */
+}
