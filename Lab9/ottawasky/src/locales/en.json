@@ -33,11 +33,11 @@
         "address": "Address"
     },
     "help": {
-        "question1": "Comment puis-je changer de langue ?/ How can I switch the language ?",
+        "question1": "How can I switch the language?",
         "question2": "How can I view the detailed and forecasts weather of a specific region?",
-        "solution1": "Cliquez simplement sur l'icône « langue » et vous pourrez passer à l'anglais ou au français./ Just simply click on the \"language\" icon and you will be able to switch to English or French.",
-        "solution2": "Just simply click on the card of the region and you will be directed to its detail page.",
-        "anyProblem": "Any Problem With Our Website?",
+        "solution1": "Just simply click on the \"language\" icon and you will be able to switch to English or French. ",
+        "solution2": "Just simply click on the card of the region and you will be directed to its detail page. ",
+        "anyProblem": "Frequently Asked Problems:",
         "moreQuestionsPlaceholder": "More questions? Submit your question here...",
         "submit": "Submit"
       },

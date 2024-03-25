@@ -3,6 +3,7 @@ import axios from 'axios';
 import Card from 'react-bootstrap/Card';
 import { useNavigate } from 'react-router-dom'; // Import useNavigate
 import { useTranslation } from 'react-i18next'; // Import useTranslation hook
+import './App.css';
 
 const WeatherCard = ({ region }) => {
   const [weather, setWeather] = useState(null);

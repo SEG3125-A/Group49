@@ -81,7 +81,7 @@ const WeatherDetail = () => {
         {/* Render weather data here */}
         <Card>
           <Card.Body>
-            <Card.Title className="regionTitle" style={{ textAlign: 'left', fontSize: '60px' }}>
+            <Card.Title className="WeatherDetailsRegionTitle" style={{ textAlign: 'left', fontSize: '60px' }}>
               {weather.location.name}
             </Card.Title>
             <Card.Img variant="top" src={iconUrl} style={{ width: '120px', height: '120px' }} />

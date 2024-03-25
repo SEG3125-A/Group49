@@ -24,12 +24,13 @@ body {
 
 .regionTitle {
   font-family: constantia;
-  font-size: 30px;
+  font-size: 34px !important;
   font-weight: bold;
   text-shadow: 0.5px 1px 1px #ba4040;
   letter-spacing: 0.6px;
 
 }
+
 
 .WeatherCondition{
   font-size: 20px;
@@ -45,7 +46,14 @@ body {
   line-height: 1.6; /* Adds space between lines of text */
 }
 
+.WeatherDetailsRegionTitle {
+  font-family: constantia;
+  font-size: 65px !important;
+  font-weight: bold;
+  text-shadow: 0.5px 1px 1px #ba4040;
+  letter-spacing: 0.6px;
 
+}
 
 .WeatherDetailConditionTitle{
   font-size: 30px;
@@ -55,6 +63,14 @@ body {
 
 }
 
+
+.ForecastCondition{
+  font-size: 18px;
+  font-family: system-ui;
+  line-height: 1.6; 
+  color: rgb(3, 63, 63);
+
+}
 
 .footer {
   margin-top: auto; /* This pushes the footer to the bottom */

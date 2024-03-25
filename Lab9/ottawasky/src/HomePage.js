@@ -24,12 +24,12 @@ const HomePage = () => {
 
             {/* Forecast */}
             <div className="d-flex justify-content-around p-4">
-                <WeatherCard region={t('ottawa')} />
-                <WeatherCard region={t('gatineau')} />
-                <WeatherCard region={t('kanata')} />
-                <WeatherCard region={t('kingston')} />
-                <WeatherCard region={t('toronto')} />
-                <WeatherCard region={t('montreal')} />
+                <WeatherCard region={t('Ottawa')} />
+                <WeatherCard region={t('Gatineau')} />
+                <WeatherCard region={t('Kanata')} />
+                <WeatherCard region={t('Kingston, Ontario')} />
+                <WeatherCard region={t('Toronto')} />
+                <WeatherCard region={t('Montreal')} />
             </div>
             <br />
 

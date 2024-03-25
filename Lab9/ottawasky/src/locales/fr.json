@@ -31,12 +31,12 @@
         "address": "Adresse"
     },
     "help": {
-        "question1": "How can I switch the language ?/ Comment puis-je changer de langue ?",
+        "question1": "Comment puis-je changer de langue?",
         "question2": "Comment puis-je consulter les prévisions détaillées et les prévisions météorologiques d'une région spécifique ?",
-        "solution1": "Just simply click on the \"language\" icon and you will be able to switch to English or French./ Cliquez simplement sur l'icône \"langue\" et vous pourrez passer en anglais ou en français.",
-        "solution2": "Cliquez simplement sur la carte de la région et vous serez dirigé vers sa page de détails.",
-        "anyProblem": "Un problème avec notre site Web ?",
-        "moreQuestionsPlaceholder": "Plus de questions ? Envoyez votre question ici...",
+        "solution1": "Cliquez simplement sur l'icône \"langue\" et vous pourrez passer en anglais ou en français. ",
+        "solution2": "Cliquez simplement sur la carte de la région et vous serez dirigé vers sa page de détails. ",
+        "anyProblem": "Problèmes fréquemment posés:",
+        "moreQuestionsPlaceholder": "Plus de questions? Envoyez votre question ici...",
         "submit": "Soumettre"
     },
     "privacyPolicyDetails": {
